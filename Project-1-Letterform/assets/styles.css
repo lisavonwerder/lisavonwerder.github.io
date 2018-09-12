@@ -111,6 +111,7 @@ body {
     font-family: "cooper-black-std",serif;
     font-style: normal;
     font-weight: 400;
+    z-index: 25;
 }
 
 .sample h3 {
