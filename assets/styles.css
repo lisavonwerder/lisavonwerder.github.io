@@ -1,0 +1,143 @@
+body {
+    background-color:#ffc300;
+    font-family:sans-serif;
+}
+
+.container {
+    /*border: 2px solid white;*/
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center; 
+    width:768px;
+    height: 1024px;
+    font-family:serif;
+    color:#000000;
+     background-image: url(CB-background.jpg);
+    background-repeat: no-repeat;
+}
+
+
+ .letterform
+{
+    width: 550px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "cooper-black-std",serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.letterform h1 {
+    font-size: 550px;
+    margin-top: -245px;
+    text-align:center;
+}
+
+
+
+.button
+{
+    width:106px;
+    height: 100px;
+    position:absolute;
+        top: 40px;
+        left: 426px;
+}
+
+
+
+.info 
+{
+   /* width: 562px;
+    height: 288px;
+    float: left;*/
+}
+
+
+
+.info h2 {
+    position: absolute;
+    top: 593px;
+    left: 89px;
+    font-family: "cooper-black-std",serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+}
+.info p{
+    position: absolute;
+        top: 642px;
+        left: 50px;
+    width: 540px;
+    height: 236px;
+    font-family: "mr-eaves-modern",sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+
+
+
+
+.overflow { 
+    overflow-x: hidden;
+    overflow-y: scroll;
+    clear: both;
+    height: 90px;
+}
+
+ .sample
+{
+    width: 80px;
+    height: 380px;
+    position: absolute;
+    top: 576px;
+    left: 668px;
+    float:right;
+    font-family: "cooper-black-std",serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.sample h3 {
+    font-size: 47px;
+}
+
+
+
+ .bio {
+   /* width: 440px;
+     height: 100px;
+     position: absolute;
+        top: 894px;
+        left: 59px; */
+    font-family: "cooper-black-std",serif;
+    font-style: normal;
+    font-weight: 400; 
+}
+
+.self {
+    position: absolute;
+        top: 916px;
+        left: 59px;
+}
+
+.bio h4 {
+    font-size: 18px;
+    position: absolute;
+        top: 915px;
+        left: 175px;
+}
+
+.bio h5 {
+    font-size: 14px; 
+    position: absolute;
+        top: 935px;
+        left: 226px;
+}
