@@ -54,8 +54,8 @@ body {
 .analysis {
     position: absolute;
     z-index:20;
-        top: -1034px;
-        left: -109px;}
+        top: 0px;
+        left: 0px;}
 
 
 
