@@ -40,14 +40,22 @@ body {
 
 
 
-.button
+#button
 {
     width:106px;
     height: 100px;
     position:absolute;
         top: 40px;
         left: 426px;
+    z-index: 30;
 }
+
+
+.analysis {
+    position: absolute;
+    z-index:20;
+        top: -1034px;
+        left: -109px;}
 
 
 
