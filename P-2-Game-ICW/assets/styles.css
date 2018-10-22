@@ -12,7 +12,7 @@ body {
     width: 974px;
     height: 718px;
     background-color:  #fff;
-    font-family: "acumin-pro", sans-serif;
+    font-family: sans-serif;
     color: #4d4d4d;
 }
 
@@ -42,7 +42,6 @@ button:hover {background-color: #d29ef0;}
     width: 532px;
     height: 34px;
     margin: auto;
-    text-align: center;
 }
 
 #button-1 {
@@ -57,7 +56,6 @@ button:hover {background-color: #d29ef0;}
     width: 532px;
     height: 57px;
     margin: auto;
-    text-align: center;
 }
 
 #button-2 {
@@ -123,7 +121,7 @@ button:hover {background-color: #d29ef0;}
 .molly-home {
     width: 385px;
     height: 718px;
-    background-image: url(test/mollys/homeimage.png);
+    background-image: url(test/image-1.jpg);
     background-repeat: no-repeat;
 }
 
@@ -135,28 +133,7 @@ button:hover {background-color: #d29ef0;}
 .molly {
     width: 385px;
     height: 718px;
-    background-image: url(test/mollys/breathebase.png);
-    background-repeat: no-repeat;
-}
-
-.molly-water {
-    width: 385px;
-    height: 718px;
-    background-image: url(test/mollys/waterbase.png);
-    background-repeat: no-repeat;
-}
-
-.molly-shower {
-    width: 385px;
-    height: 718px;
-    background-image: url(test/mollys/showerbase.png);
-    background-repeat: no-repeat;
-}
-
-.molly-des {
-    width: 385px;
-    height: 718px;
-    background-image: url(test/mollys/desbase.png);
+    background-image: url(test/image-1.jpg);
     background-repeat: no-repeat;
 }
 
@@ -192,7 +169,7 @@ button:hover {background-color: #d29ef0;}
     height: 110px;
     margin: auto;
     text-align: center;
-    background-color: #d29ef0;
+    background-color: #659ecb;
     position:absolute;
     top: 600px;
     left: 264px;
