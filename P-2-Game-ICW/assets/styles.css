@@ -45,13 +45,16 @@ button:hover {background-color: #d29ef0;}
     text-align: center;
 }
 
-#button-1 {
+ #button-1 {
     width: 110px;
     height: 110px;
     margin: auto;
     background-color: #659ecb;
     z-index: 50;
-}
+    background-image: url(test/mollys/desbase.png);
+    background-repeat: no-repeat; 
+} 
+
 
 .instruct-3 {
     width: 532px;
@@ -107,14 +110,129 @@ button:hover {background-color: #d29ef0;}
     margin: auto;
     background-color: #659ecb;
     position:absolute;
-    top: 445px;
-    left: 232px;
+    top: 585px;
+    left: 315px;
     border-radius: 20px;
     text-align: center;
     font-family: sans-serif;
     color: #fff;
     font-size: 24px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+#button-1-b {
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    z-index: 50;
+    background-image: url(buttons/in.png);
+    background-repeat: no-repeat;
+}
+
+#button-2-b {
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    z-index: 40;
+    background-image: url(buttons/out.png);
+    background-repeat: no-repeat;
+}
+
+#button-1-w {
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    z-index: 50;
+    background-image: url(buttons/pitcher.png);
+    background-repeat: no-repeat;
+}
+
+#button-2-w {
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    z-index: 40;
+    background-image: url(buttons/glass.png);
+    background-repeat: no-repeat;
+}
+
+#button-1-s {
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    z-index: 50;
+    background-image: url(buttons/towel.png);
+    background-repeat: no-repeat;
+}
+
+#button-2-s {
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    z-index: 40;
+    background-image: url(buttons/showerhead.png);
+    background-repeat: no-repeat;
+}
+
+#button-1-c {
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    z-index: 50;
+    background-image: url(buttons/tshirt.png);
+    background-repeat: no-repeat;
+}
+
+#button-2-c {
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    z-index: 40;
+    background-image: url(buttons/comb.png);
+    background-repeat: no-repeat;
+}
+
+#button-1-d {
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    z-index: 50;
+    background-image: url(buttons/kettle.png);
+    background-repeat: no-repeat;
+}
+
+#button-2-d {
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    z-index: 40;
+    background-image: url(buttons/laptop.png);
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -128,14 +246,31 @@ button:hover {background-color: #d29ef0;}
 }
 
 
-
-
-
-
 .molly {
     width: 385px;
     height: 718px;
-    background-image: url(test/image-1.jpg);
+    background-image: url(test/mollys/breathebase.png);
+    background-repeat: no-repeat;
+}
+
+.molly-water {
+    width: 385px;
+    height: 718px;
+    background-image: url(test/mollys/waterbase.png);
+    background-repeat: no-repeat;
+}
+
+.molly-shower {
+    width: 385px;
+    height: 718px;
+    background-image: url(test/mollys/showerbase.png);
+    background-repeat: no-repeat;
+}
+
+.molly-des {
+    width: 385px;
+    height: 718px;
+    background-image: url(test/mollys/desbase.png);
     background-repeat: no-repeat;
 }
 
@@ -171,10 +306,10 @@ button:hover {background-color: #d29ef0;}
     height: 110px;
     margin: auto;
     text-align: center;
-    background-color: #d29ef0;
+    background-color: navy;
     position:absolute;
-    top: 600px;
-    left: 264px;
+    top: 580px;
+    left: 574px;
 }   
 
 
@@ -213,3 +348,6 @@ h3 {
     font-family: sans-serif;
     color: #4d4d4d;
 }
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
