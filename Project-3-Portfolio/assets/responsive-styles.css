@@ -1,0 +1,37 @@
+/*****************/
+/**** Header *****/
+/*****************/
+
+header {
+    position: relative;
+}
+
+.site-header {
+    background-color: plum;
+    width: 100%;
+}
+
+.site-title {
+    margin: auto;
+}
+
+/*****************/
+/**** Main *****/
+/*****************/
+
+main {
+    background-color: lightgray;
+}
+
+
+
+
+
+
+/*****************/
+/**** Footer *****/
+/*****************/
+
+
+
+

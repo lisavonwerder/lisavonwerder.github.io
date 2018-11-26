@@ -1,0 +1,107 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto/Suez+One';
+
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color:#0c2340;
+    font-family:'Roboto', sans-serif;
+    color:#fff;
+}
+
+.nav-bar {
+    border-top: .25rem solid #e7cc68;
+    background-color: #0c2340;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.topnav a {
+    color:#fff;
+    text-decoration: none;
+    display: block;
+    float: left;
+    text-align:center;
+    padding: .875rem; 1rem;
+    font-size: .95rem;
+}
+
+.topnav a:hover {
+    background-color:#e7cc68;
+    color: #0c2340;
+}
+
+.topnav.responsive.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a.icon {
+    color: #f2f2f2;
+    display: block;
+    font-size: 1.25rem;
+    float: right;
+
+}
+
+.main-nav a {
+    display:none;
+}
+
+.main-nav.responsive a {
+    display: block;
+}
+
+.topnav.responsive a {
+    display: block;
+}
+
+.responsive {
+    display: block;
+}
+
+main {
+    background-color: white;
+    height:1000vh;
+}
+
+@media only screen and (min-width:960px) {
+    main {
+        width: 60rem;
+        margin: 0 auto;
+        overflow: auto;
+        height:50vh;
+        background-color: aqua;
+    }
+    
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    
+    .topnav .icon {
+        display: none;
+    }
+    .topnav.responsive .icon {
+        display:none;
+    }
+    
+}
+
+    
+    
+    
+    
+    
+    
+
+
